@@ -1,0 +1,7 @@
+parameters:
+#    xperts_test.example.class: Xperts\TestBundle\Example
+
+services:
+#    xperts_test.example:
+#        class: %xperts_test.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

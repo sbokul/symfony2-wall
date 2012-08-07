@@ -1,0 +1,8 @@
+XpertsTestBundle_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: XpertsTestBundle:Default:index }
+
+
+XpertsTestBundle_user:
+        resource: "@XpertsTestBundle/Resources/config/routing/user.yml"
+        prefix:   /user
