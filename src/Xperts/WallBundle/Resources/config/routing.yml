@@ -1,0 +1,4 @@
+XpertsWallBundle_user:
+    resource: "@XpertsWallBundle/Resources/config/routing/user.yml"
+    prefix:   /user
+

@@ -1,0 +1,14 @@
+XpertsFooBundle:
+    resource: "@XpertsFooBundle/Controller/"
+    type:     annotation
+    prefix:   /foo
+
+XpertsWallBundle:
+    resource: "@XpertsWallBundle/Controller/"
+    type:     yml
+    prefix:   /wall
+
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal
